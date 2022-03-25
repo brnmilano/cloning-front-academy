@@ -1,0 +1,9 @@
+.button-container {
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}

@@ -19,9 +19,9 @@
   padding: 28px;
 }
 
-.menu-container .links {
+.menu-container .links-container {
   display: flex;
-  gap: 50px;
+  align-items: center;
 }
 
 .menu-container .right {

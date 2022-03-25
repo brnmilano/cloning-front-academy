@@ -4,21 +4,28 @@ import Button from "../Button";
 
 function Menu() {
   return (
-    <div class="menu-container">
-      <div class="menu">
+    <div className="menu-container">
+      <div className="menu">
         <div>
           <Logo />
         </div>
 
-        <div class="links">
-          <div>StarterPack</div>
-          <div>Evolution</div>
-          <div>Specialist</div>
+        <div className="links-container">
+          <Button>StarterPack</Button>
+          <Button>Evolution</Button>
+          <Button>Specialist</Button>
         </div>
 
-        <div class="right">
-          <Button />
-          <Button />
+        <div className="right">
+          <Button>Entrar</Button>
+
+          <Button
+            backgroundColor="#0289ea"
+            borderRadius={8}
+            padding="13px 65px"
+          >
+            Começar
+          </Button>
         </div>
       </div>
     </div>
